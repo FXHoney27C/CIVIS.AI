@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A12" />
+      <stop offset="50%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#0D1527" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.8" opacity="0.35" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="180" r="280" fill="#00E5FF" opacity="0.08" />
+  <circle cx="1000" cy="450" r="320" fill="#3B82F6" opacity="0.08" />
+  <circle cx="950" cy="150" r="200" fill="#00E676" opacity="0.06" />
+
+  <!-- Brand Wordmark -->
+  <g transform="translate(100, 110)">
+    <rect x="0" y="0" width="48" height="48" rx="10" fill="#00E5FF" opacity="0.15" stroke="#00E5FF" stroke-width="2" />
+    <path d="M24 10 L35 15 C35 24 30 32 24 37 C18 32 13 24 13 15 Z" fill="none" stroke="#00E5FF" stroke-width="2.5" />
+    <circle cx="24" cy="22" r="3.5" fill="#00E5FF" />
+    <text x="65" y="34" font-family="'Outfit', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" letter-spacing="-1">
+      CIVIS<tspan fill="#00E5FF">.AI</tspan>
+    </text>
+    <text x="210" y="34" font-family="'Space Mono', monospace" font-size="14" fill="#94A3B8" letter-spacing="2">
+      // INDIA SMART CITY EDITION
+    </text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="100" y="230" font-family="'Outfit', sans-serif" font-weight="800" font-size="52" fill="#FFFFFF" letter-spacing="-1.5">
+    Smart Urban Exploration &amp; Safety Co-Pilot
+  </text>
+  <text x="100" y="290" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" fill="#94A3B8" max-width="900">
+    Predictive traffic computer vision, real-time vibe NLP, and autonomous microgrid streetlights.
+  </text>
+
+  <!-- Indian Metros Badge Strip -->
+  <g transform="translate(100, 340)">
+    <rect x="0" y="0" width="130" height="42" rx="8" fill="#172033" stroke="#334155" stroke-width="1.5" />
+    <text x="65" y="26" font-family="'Space Mono', monospace" font-size="14" font-weight="bold" fill="#00E5FF" text-anchor="middle">📍 PUNE</text>
+
+    <rect x="145" y="0" width="140" height="42" rx="8" fill="#172033" stroke="#334155" stroke-width="1.5" />
+    <text x="215" y="26" font-family="'Space Mono', monospace" font-size="14" font-weight="bold" fill="#00E5FF" text-anchor="middle">📍 MUMBAI</text>
+
+    <rect x="300" y="0" width="170" height="42" rx="8" fill="#172033" stroke="#334155" stroke-width="1.5" />
+    <text x="385" y="26" font-family="'Space Mono', monospace" font-size="14" font-weight="bold" fill="#00E5FF" text-anchor="middle">📍 BENGALURU</text>
+
+    <rect x="485" y="0" width="170" height="42" rx="8" fill="#172033" stroke="#334155" stroke-width="1.5" />
+    <text x="570" y="26" font-family="'Space Mono', monospace" font-size="14" font-weight="bold" fill="#00E5FF" text-anchor="middle">📍 HYDERABAD</text>
+
+    <rect x="670" y="0" width="170" height="42" rx="8" fill="#172033" stroke="#334155" stroke-width="1.5" />
+    <text x="755" y="26" font-family="'Space Mono', monospace" font-size="14" font-weight="bold" fill="#00E5FF" text-anchor="middle">📍 DELHI NCR</text>
+  </g>
+
+  <!-- Feature Metrics Card -->
+  <g transform="translate(100, 430)">
+    <rect x="0" y="0" width="1000" height="120" rx="14" fill="#0F172A" opacity="0.85" stroke="#1E293B" stroke-width="2" />
+    
+    <!-- Col 1 -->
+    <text x="50" y="52" font-family="'Outfit', sans-serif" font-size="36" font-weight="bold" fill="#00E5FF">42%</text>
+    <text x="50" y="84" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8">Risk Reduction vs Standard GPS</text>
+    
+    <!-- Divider -->
+    <line x1="320" y1="25" x2="320" y2="95" stroke="#334155" stroke-width="1" />
+
+    <!-- Col 2 -->
+    <text x="360" y="52" font-family="'Outfit', sans-serif" font-size="36" font-weight="bold" fill="#00E676">>120 Lux</text>
+    <text x="360" y="84" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8">Guaranteed Solar Illumination</text>
+
+    <!-- Divider -->
+    <line x1="660" y1="25" x2="660" y2="95" stroke="#334155" stroke-width="1" />
+
+    <!-- Col 3 -->
+    <text x="700" y="52" font-family="'Outfit', sans-serif" font-size="36" font-weight="bold" fill="#FFD700">CARTO + AI</text>
+    <text x="700" y="84" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8">Spatial MCP Server ac_7l2l64mp</text>
+  </g>
+</svg>

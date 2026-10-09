@@ -1,0 +1,7 @@
+{
+  "name": "CIVIS AI - Smart Urban Exploration & Safety Co-Pilot",
+  "description": "Fuses predictive traffic computer vision, real-time vibe NLP, and historical accident datasets to turn urban chaos into your safe playground across Indian metropolitan cities.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

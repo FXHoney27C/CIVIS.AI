@@ -1,0 +1,8 @@
+# CIVIS AI Robots Exclusion File
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://civis-ai.org/sitemap.xml
